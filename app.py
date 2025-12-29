@@ -1,7 +1,6 @@
 from flask import Flask, render_template_string, request, redirect, url_for, session
 import sqlite3
 import os
-from pyngrok import ngrok
 app = Flask(__name__)
 app.secret_key = "secret123"
 DB = "bus.db"
